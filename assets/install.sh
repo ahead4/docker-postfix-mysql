@@ -77,3 +77,5 @@ done
 
 cp /etc/services /var/spool/postfix/etc
 cp /etc/resolv.conf /var/spool/postfix/etc
+
+chown -R postfix:postfix /etc/postfix
