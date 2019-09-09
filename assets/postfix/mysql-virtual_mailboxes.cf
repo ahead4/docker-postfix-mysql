@@ -1,0 +1,7 @@
+hosts = {mysql_host}
+user = {mysql_username}
+password = {mysql_password}
+dbname = {mysql_database}
+table = users
+select_field = CONCAT(SUBSTRING_INDEX(email,'@',-1),'/',SUBSTRING_INDEX(email,'@',1),'/')
+where_field = email

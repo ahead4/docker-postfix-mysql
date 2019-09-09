@@ -1,0 +1,2 @@
+auth    required   pam_mysql.so user={mysql_username} passwd={mysql_password} host={mysql_host} db={mysql_database} table=users usercolumn=email passwdcolumn=password crypt=1
+account sufficient pam_mysql.so user={mysql_username} passwd={mysql_password} host={mysql_host} db={mysql_database} table=users usercolumn=email passwdcolumn=password crypt=1

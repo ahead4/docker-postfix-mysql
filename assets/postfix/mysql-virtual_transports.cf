@@ -1,0 +1,7 @@
+hosts = {mysql_host}
+user = {mysql_username}
+password = {mysql_password}
+dbname = {mysql_database}
+table = transport
+select_field = transport
+where_field = domain

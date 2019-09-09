@@ -1,0 +1,7 @@
+hosts = {mysql_host}
+user = {mysql_username}
+password = {mysql_password}
+dbname = {mysql_database}
+table = domains
+select_field = 'virtual'
+where_field = domain
